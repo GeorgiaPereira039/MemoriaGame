@@ -39,6 +39,7 @@ Durante o projeto enfrentei várias dificuldades, e tive novos desafios. Os prin
 
 - Fazer as imagens das cartas aparecer na área remota, rs deu um trabalhinho.
 
+- Aplicar responsividade.
   
 
 Minha maior recompensa é ver como tudo está funcionando.

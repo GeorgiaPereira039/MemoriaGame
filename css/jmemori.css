@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    background-image: url('./cenario.png');
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    background-size: cover;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 4px 75px;
+}
+  
+  
+h1 {
+    margin-left: 30vw;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.1rem;
+    margin-top: 2%;
+    width: 40vw;
+    color: rgb(116, 66, 108);
+    position: relative;
+    animation: jogo 5s linear -2s infinite normal;
+    background-image: none;
+}
+
+@keyframes jogo {
+    0% {left: 0px;}
+    25%  {left:100px;}
+    50% {left: 200px;}
+    75% {right: 300px;}
+    100% {left: 0px;}
+}
+  
+  .tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(8, 2fr);
+    gap: 15px 20px;
+    width: 80%;
+    max-width: 1400px; /*  max-width: 1000px */
+    margin-top: -5vw;
+    background-image: none;
+    
+
+  }
+  
+  .carta {
+    aspect-ratio: 4/4;
+    width: 100%;
+    border-radius: 100px;
+    position: relative;
+    transition: all 400ms ease;
+    transform-style: preserve-3d;
+    background-size: cover;
+
+    
+  }
+  
+  .face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #470e3e;
+    border-radius: 100px;
+    transition: all 400ms ease;
+  }
+  
+  .front {
+    transform: rotateY(180deg);
+  }
+  
+  .back {
+    background-image: url('./back.png');
+    backface-visibility: hidden;
+  }
+  
+  .revele-carta {
+    transform: rotateY(180deg);
+  }
+  
+  .carta-inativa {
+    filter: saturate(0);
+    opacity: 0.5;
+  }
+
+#btnRestart {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    cursor:grab;
+    color: rgb(75, 7, 65);
+    border: 0;
+    border-radius: 15px;
+    margin-top: 3%;
+    padding: 10px 40px;
+    opacity: 0.5;
+    
+}
+
+#btnRestart:hover { 
+    opacity: 1;
+}
+
+#squirtle {
+    margin-top: -10vw;
+    max-width: auto;
+    height: 100px;
+    margin-left: 80vw;
+    animation: squirtle 2s 1 alternate-reverse;
+    background-image: none;
+    
+}
+@keyframes squirtle {
+     100%  {transform: translateY(-900px);
+    }
+     
+}
+
+#togepi {
+  max-width: auto;
+  height: 100px;
+  margin-left: 20vw;
+  animation: togepi 2s 1 alternate-reverse;
+  margin-top: -5%;
+  background-image: none ;
+}
+
+@keyframes togepi {
+    100%  {transform: translateY(-500px);}
+}
+
+
+#eve {
+    height: 0px;
+}
+
+#chikorita {
+    height: 0px;
+}
+
+
+.audio { 
+    opacity: 0.03;
+    background-image: none;  
+    margin-top: -10%; 
+    
+}
+.audio:hover { 
+    opacity: 1;
+}
+
+footer {
+    font-family: 'Press Start 2P', cursive;
+    padding: 10px;
+    text-align: center;
+    background-image: none;  
+}
+
+footer p {
+    color: var(--black);
+    font-size: 12px;
+    font-weight: 300;
+    background-image: none;
+    color: rgb(30, 41, 31);
+}
+
+
+@media screen and ( max-width: 200vw) and (min-height: 100vw) {
+    * {
+        background-image: url('./cenario1.jpg');
+    }
+   h1 {
+    margin-top: 20%;
+    background-image: none;
+    min-width: 52vw;
+    margin-left: 10%;
+    color: rgb(66, 85, 20);
+    }
+
+    .tabuleiro {
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 10%;
+    }
+
+    .back {
+        background-image: url('./back1.jpg');
+      }
+    
+    #btnRestart { 
+        margin-top: 20%;
+        font-size: 25px;
+        color: rgb(59, 7, 155);
+
+    }
+    
+    footer p {
+        color: rgb(123, 82, 199);
+        margin-top: 40%;
+    }
+    
+    .audio { 
+        opacity: 0.03;
+        margin-top: -255%;   
+        margin-left: 35%;   
+    }
+    .audio:hover { 
+        opacity: 0.5;
+    }
+
+    #togepi {
+        margin-top: 0%;
+        margin-left: 15%;
+    }
+    #squirtle {
+    margin-top: 0%;
+    margin-left: 30%;
+    }
+
+    #eve {
+        max-width: auto;
+        height: 110px;
+        animation: eve 2s 1 alternate-reverse;
+        background-image: none ;
+        margin-top: 0%;
+    }
+    @keyframes eve {
+        100%  {transform: translateY(-400px);
+        }}
+
+#chikorita {
+        max-width: auto;
+        height: 120px;
+        margin-left: -35%;
+        animation: chikorita 2s 1 alternate-reverse;
+        background-image: none ;
+        
+        
+    }
+    @keyframes chikorita {
+        100%  {transform: translateY(-700px);
+        }
+    }  
+}

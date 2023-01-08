@@ -5,6 +5,7 @@
       <meta  name="viewport" content="" content="width=device-width, initial-scale=1.0">
       <link href="./css/jmemori.css" rel="stylesheet" type="text/css" defer/>
       <script src="./js/memoria.js" defer></script> 
+      <link rel="stylesheet" type="text/css" href="./css/rating-stars.css" defer/>
       <!-- <link href="https://georgiapereira039.github.io/MemoriaGame/css/jmemori.css" rel="stylesheet">
       <script src="https://georgiapereira039.github.io/MemoriaGame/js/memoria.js" defer></script>  --> 
       <title>Jogo da Memória</title>
@@ -15,6 +16,15 @@
       <img id="togepi" src="./css/togeppi.png" alt="togepi icon">
       <img id="eve" src="./css/eve.png" alt="eve icon">
       <img id="chikorita" src="./css/chikorita.png" alt="chikorita icon">
+      <div class="rating-stars">
+         <input type="radio" name="rating" id="rs0" checked><label for="rs0"></label>
+         <input type="radio" name="rating" id="rs1"><label for="rs1"></label>
+         <input type="radio" name="rating" id="rs2"><label for="rs2"></label>
+         <input type="radio" name="rating" id="rs3"><label for="rs3"></label>
+         <input type="radio" name="rating" id="rs4"><label for="rs4"></label>
+         <input type="radio" name="rating" id="rs5"><label for="rs5"></label>
+         <span class="rating-counter"></span>
+      </div>
       <main>
          <div class="tabuleiro"></div>
          <button id="btnRestart" onclick="restart()">Jogar Novamente</button>

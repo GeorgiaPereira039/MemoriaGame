@@ -1,0 +1,12 @@
+<!--- - 1. Começando --->
+- [Instalando](/)
+- [Compilando código fonte](/guide/)
+- [Jogando](/video/)
+- [Changelog](/changelog/)
+- Implementação
+  - [Web](/web/)
+  - [Mobile](/mobile/)
+- [Licença](/license/)
+- [FAQ](/faq/)
+- [Screenshot](/screenshot/)
+- [Glossário técnico](/glossary/)

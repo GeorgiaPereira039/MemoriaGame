@@ -20,47 +20,50 @@ Memoriagame foi criado por GeorgiaPereira039.
 1. ![pokemon-go](https://user-images.githubusercontent.com/104602308/188932301-7e63be08-7132-4679-b04d-6975cad42e29.png) Se você está jogando no celular, experimente girar a tela! 
 2. Quer ver como está o jogo atualmente? Acesse o link ao lado.
 
-###### 5. Qual é a proposta ou desafio do jogo?
+###### 5. Qual é a proposta do jogo?
 A proposta e o desafio do jogo é melhorar o raciocínio lógico através da memorização de cartas. 
 
-###### 6. Quais versões existem? O jogo é multiplataforma?
+###### 6. Qual é o desafio ao jogar, como o jogo funciona ou qual é a regra do jogo?
+Nesse jogo, o jogador deve virar duas peças e, se as peças que foram viradas forem iguais, o jogador marca um ponto. Se as peças forem diferentes, serão viradas novamente, até o jogador conseguir virar duas imagens iguais.
+
+###### 7. Quais versões existem? O jogo é multiplataforma?
 O jogo conta com versão web e mobile, e sim é multiplataforma: funciona no Windows, Linux e MacOs. 
 
-###### 7. Quais foram suas maiores dificuldades para criar, desenvolver esse jogo?
+###### 8. Quais foram suas maiores dificuldades para criar, desenvolver esse jogo?
 Durante o projeto enfrentei várias dificuldades, e tive novos desafios. Os principais foram: 
 - Incluir imagens no JavaScripit.
 - Fazer as cartas virarem.
 - Fazer as imagens das cartas aparecer na área remota, rs deu um trabalhinho.
 - Aplicar responsividade.
 
-###### 8. Qual foi sua maior conquista ou recompensa ao criar, desenvolver esse jogo?
+###### 9. Qual foi sua maior conquista ou recompensa ao criar, desenvolver esse jogo?
 Minha maior recompensa é ver como tudo está funcionando. Notem a música tema inserida. Tentei fazer um botão mute apenas, caso o usuário queira mutar o som do jogo... Não deu certo (ainda)...Mas não vou desistir. Assim que conseguir, será atualizado!
 
-###### 9. Como esse jogo foi feito, desenvolvido, criado, conceituado, implementado?
+###### 10. Como esse jogo foi feito, desenvolvido, criado, conceituado, implementado?
 A versão web é implementada com linguagem web: html, css, js. Já a versão mobile é feita com onsen-ui que tem como base o mesmo código da versão web, porém com outras diferenças de layout, design.
 
-###### 10. Onde o jogo está hospedado ou que servidor e empresa hospeda o jogo?
+###### 11. Onde o jogo está hospedado ou que servidor e empresa hospeda o jogo?
 A versão mobile e web são hospedas no GitHub Pages. Mas pode ser hospedado em qualquer site, nuvem e empresa de hospedagem também.
 
-###### 11. Onde posso instalar esse jogo?
+###### 12. Onde posso instalar esse jogo?
 Esse jogo é jogado online através do link: `https://georgiapereira039.github.io/MemoriaGame/jogo.html`
 
-###### 12. Existe suporte para outro idioma como inglês etc?
+###### 13. Existe suporte para outro idioma como inglês etc?
 Ainda não.
 
-##### 13. Quais foram as principais mudanças na versão 1.10?
+###### 14. Quais foram as principais mudanças na versão 1.10?
 Por favor, acesse esse arquivo [changelog](#/changelog/README.md). Caso não queira ler o arquivo completo, podemos listar as principais mudanças como:
 - Documentação técnica
 - áudio no jogo
 - versão mobile em [onsen-ui](https://onsen.io/)
 - importação álbum de fotos e figuras
 
-##### 14. Como os arquivos estão organizados?
+###### 15. Como os arquivos estão organizados?
 ```markdown
 ## adicionar
 ```
 
-##### 15. Como compilo ou utilizo o código fonte?
+###### 16. Como compilo ou utilizo o código fonte?
 É necessário seguir esse guia passo a passo para compilar o jogo:
 1. Instale o nodejs e as dependencias. Como: ``npm i docsify-cli -g``, ``docsify init ./docs``, ``docsify serve docs``
 2. Utilize o processo build e gere os arquivos finais
@@ -70,11 +73,11 @@ Por favor, acesse esse arquivo [changelog](#/changelog/README.md). Caso não que
 **Observação**
 A porta a ser aberta pelo app é a 3000 na documentação: `http://localhost:3000`
 
-###### 16. Qual é a licença desse projeto?
+###### 17. Qual é a licença desse projeto?
 - A licença do desenvolvimento do jogo é da GeorgiaPereira039, não há licenciamento em core do projeto. 
 - Mas em relação a outros arquivos, olhar esse [arquivo](/license/) mais específico que aborda o tipo de licença, utilização e crédito.
 
-###### 17. Funciona em todos navegadores?
+###### 18. Funciona em todos navegadores?
 - Esse jogo deve funcionar em navegadores mais modernos e atualizados. 
 - O teste realizado foi em ambiente do windows 7 em 64 bits com a última versão compátivel pelo chrome. 
 - Mas deve funcionar no edge, firefox e outros browser atuais e modernos com x86 ou x64 bits à exemplo: Windows 7, 10, 11.

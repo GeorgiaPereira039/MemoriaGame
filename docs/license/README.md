@@ -1,7 +1,7 @@
 ## Licença 
 - A [logo](https://www.flaticon.com/br/icone-gratis/jogos-de-cartas_3813720) é licenciada com a licença: "License Flaticon Free" para uso pessoal e comercial com atribuição.
 - [conversor de imagem png para icon utilizado](https://convertico.com/#google_vignette)
-- rating-stars é baseado no código [rating-stars](https://codepen.io/josetxu/details/jOYYmVZ) da autoria/desenvolvedor: [codepen.io/josetxu](https://codepen.io/josetxu)
+- sistema de ranking é baseado no código [rating-stars](https://codepen.io/josetxu/details/jOYYmVZ) da autoria/desenvolvedor: [codepen.io/josetxu](https://codepen.io/josetxu)
 - o tema é licenciado em docsify com a licença MIT
 - A documentação técnica é escrita com docsify com a licença MIT
 - O tema da documentação técnica é baseado em [vue-orgchart](https://github.com/spiritree/vue-orgchart) com a licença MIT

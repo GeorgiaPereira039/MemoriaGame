@@ -1,28 +1,28 @@
  _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
- ![caterpie](img/caterpie.png)
-  ![bullbasaur](img/bullbasaur.png)
-  ![gastly.png](img/avatar.png)
-  ![venonat.png](img/venonat.png)
-  ![meowth.png](img/meowth.png)
-  ![psyduck.png](img/psyduck.png)
-  ![charmander.png](img/charmander.png)
-  ![caterpie.png](img/caterpie.png)
-  ![bullbasaur.png](img/bullbasaur.png)
-  ![gastly.png](img/avatar.png)
-  ![venonat.png](img/venonat.png)
-  ![meowth.png](img/meowth.png)
+ ![caterpie](assets/readme/caterpie.png)
+  ![bullbasaur](assets/readme/bullbasaur.png)
+  ![gastly.png](assets/readme/avatar.png)
+  ![venonat.png](assets/readme/venonat.png)
+  ![meowth.png](assets/readme/meowth.png)
+  ![psyduck.png](assets/readme/psyduck.png)
+  ![charmander.png](assets/readme/charmander.png)
+  ![caterpie.png](assets/readme/caterpie.png)
+  ![bullbasaur.png](assets/readme/bullbasaur.png)
+  ![gastly.png](assets/readme/avatar.png)
+  ![venonat.png](assets/readme/venonat.png)
+  ![meowth.png](assets/readme/meowth.png)
 
 
 
 _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-### 													![188918](img/icon3.png) JOGO DA MEMÓRIA ![188918](img/icon3.png)
+### 													![188918](assets/readme/icon3.png) JOGO DA MEMÓRIA ![188918](assets/readme/icon3.png)
 
-![avatar](img/avatar2.png)Quer ver como está o jogo atualmente? Acesse o link ao lado  [Jogo da Memória](https://georgiapereira039.github.io/MemoriaGame/jogo.html)
+![avatar](readme/avatar2.png)Quer ver como está o jogo atualmente? Acesse o link ao lado  [Jogo da Memória](https://georgiapereira039.github.io/MemoriaGame/jogo.html)
 
 
 
-![pokemon-go](img/pokemon-go.png)
+![pokemon-go](assets/readme/pokemon-go.png)
 Se você está jogando no celular, experimente girar a tela! 
 
 

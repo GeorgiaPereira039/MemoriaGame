@@ -18,7 +18,7 @@ ________________________________________________________________________________
 
 ### 													![188918](assets/readme/icon3.png) JOGO DA MEMÓRIA ![188918](assets/readme/icon3.png)
 
-![avatar](readme/avatar2.png)Quer ver como está o jogo atualmente? Acesse o link ao lado  [Jogo da Memória](https://georgiapereira039.github.io/MemoriaGame/jogo.html)
+![avatar](assets/readme/avatar2.png)Quer ver como está o jogo atualmente? Acesse o link ao lado  [Jogo da Memória](https://georgiapereira039.github.io/MemoriaGame/jogo.html)
 
 
 

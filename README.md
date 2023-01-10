@@ -43,6 +43,7 @@ Minha maior recompensa é ver como tudo está funcionando.
 
 Notem a música tema inserida. Tentei fazer um botão mute apenas, caso o usuário queira mutar o som do jogo... Não deu certo (ainda)...Mas não vou desistir. Assim que conseguir, será atualizado!
 
+Para a versão mobile acesse o link: [versão mobile](https://georgiapereira039.github.io/MemoriaGame/mobile/index.html)
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Fontes usadas:👇👇

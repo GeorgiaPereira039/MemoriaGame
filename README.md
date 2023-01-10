@@ -1,4 +1,8 @@
- _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+## MemoriaGame
+![mockup1](assets/mockup/mockup1.png)
+
+### ![188918](assets/readme/icon3.png) JOGO DA MEMÓRIA ![188918](assets/readme/icon3.png)
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
  ![caterpie](assets/readme/caterpie.png)
   ![bullbasaur](assets/readme/bullbasaur.png)
   ![gastly.png](assets/readme/avatar.png)
@@ -11,21 +15,12 @@
   ![gastly.png](assets/readme/avatar.png)
   ![venonat.png](assets/readme/venonat.png)
   ![meowth.png](assets/readme/meowth.png)
-
-
-
 _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-### 													![188918](assets/readme/icon3.png) JOGO DA MEMÓRIA ![188918](assets/readme/icon3.png)
-
-![avatar](assets/readme/avatar2.png)Quer ver como está o jogo atualmente? Acesse o link ao lado  [Jogo da Memória](https://georgiapereira039.github.io/MemoriaGame/jogo.html)
-
-
+![avatar](assets/readme/avatar2.png) Quer ver como está o jogo atualmente? Acesse o link ao lado  [Jogo da Memória](https://georgiapereira039.github.io/MemoriaGame/jogo.html)
 
 ![pokemon-go](assets/readme/pokemon-go.png)
 Se você está jogando no celular, experimente girar a tela! 
-
-
 
 Depois de alguns dias, finalmente concluiu meu novo jogo... A base veio do canal [Manual do Dev](https://www.youtube.com/watch?v=tcbMmm77WOU) , sem as dicas, não teria chegado neste resultado. Agradeço por contribuir no meu desenvolvimento.
 

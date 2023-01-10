@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 * {
-    background-image: url('./cenario.png');
+    background-image: url('../../../assets/css/cenario.png');
 }
 
 main {
@@ -75,7 +75,7 @@ h1 {
   }
   
   .back {
-    background-image: url('./back.png');
+    background-image: url('../../../assets/css/back.png');
     backface-visibility: hidden;
   }
   
@@ -171,7 +171,7 @@ footer p {
 
 @media screen and ( max-width: 200vw) and (min-height: 100vw) {
     * {
-        background-image: url('./cenario1.jpg');
+        background-image: url('./../assets/css/cenario1.jpg');
     }
    h1 {
     margin-top: 20%;
@@ -187,7 +187,7 @@ footer p {
     }
 
     .back {
-        background-image: url('./back1.jpg');
+        background-image: url('./../assets/css/back1.jpg');
       }
     
     #btnRestart { 

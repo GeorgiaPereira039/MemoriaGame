@@ -1,13 +1,12 @@
-## Licença 
+## Licença & Fontes usadas:👇👇
 - A [logo](https://www.flaticon.com/br/icone-gratis/jogos-de-cartas_3813720) é licenciada com a licença: "License Flaticon Free" para uso pessoal e comercial com atribuição.
 - [conversor de imagem png para icon utilizado](https://convertico.com/#google_vignette)
 - sistema de ranking é baseado no código [rating-stars](https://codepen.io/josetxu/details/jOYYmVZ) da autoria/desenvolvedor: [codepen.io/josetxu](https://codepen.io/josetxu)
+- A versão do jogo memoriagame em react-native é baseado no código: [snack.expo.dev/@tqtnls/memorygame](https://snack.expo.dev/@tqtnls/memorygame)
 - o tema é licenciado em docsify com a licença MIT
 - A documentação técnica é escrita com docsify com a licença MIT
 - O tema da documentação técnica é baseado em [vue-orgchart](https://github.com/spiritree/vue-orgchart) com a licença MIT
 - Código fonte aberto por MIT: adicione mais recursos ou remova recursos conforme o necessário
-
-## Fontes usadas:👇👇
 - [Cartas](https://www.pokemon.com/br/pokedex/)
 - [Ícones/IconScout](https://iconscout.com/)
 - [Ícones/Flaticon](https://www.flaticon.com/br/icones-gratis/pokemon)

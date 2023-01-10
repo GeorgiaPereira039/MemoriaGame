@@ -1,8 +1,17 @@
-## MemoriaGame
-![mockup1](assets/mockup/mockup1.png)
+<h2 align="center">
+ MemoriaGame 
+</h2>
 
-### ![188918](assets/readme/icon3.png) JOGO DA MEMÓRIA ![188918](assets/readme/icon3.png)
+<h2 align="center">
+ <img src="assets/mockup/mockup1.png" id="188918" /> 
+</h2>
+
+<h3 align="left">
+ <img src="assets/readme/icon3.png" id="188918" /> JOGO DA MEMÓRIA <img src="assets/readme/icon3.png" id="188918" />
+</h3>
+
 _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
  ![caterpie](assets/readme/caterpie.png)
   ![bullbasaur](assets/readme/bullbasaur.png)
   ![gastly.png](assets/readme/avatar.png)
@@ -24,19 +33,12 @@ Se você está jogando no celular, experimente girar a tela!
 
 Depois de alguns dias, finalmente concluiu meu novo jogo... A base veio do canal [Manual do Dev](https://www.youtube.com/watch?v=tcbMmm77WOU) , sem as dicas, não teria chegado neste resultado. Agradeço por contribuir no meu desenvolvimento.
 
-
-
 Durante o projeto enfrentei várias dificuldades, e tive novos desafios. Os principais foram: 
-
 - Incluir imagens no JavaScripit.
-
 - Fazer as cartas virarem.
-
 - Fazer as imagens das cartas aparecer na área remota, rs deu um trabalhinho.
-
 - Aplicar responsividade.
   
-
 Minha maior recompensa é ver como tudo está funcionando.
 
 Notem a música tema inserida. Tentei fazer um botão mute apenas, caso o usuário queira mutar o som do jogo... Não deu certo (ainda)...Mas não vou desistir. Assim que conseguir, será atualizado!
@@ -44,7 +46,6 @@ Notem a música tema inserida. Tentei fazer um botão mute apenas, caso o usuár
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Fontes usadas:👇👇
-
 
 [Cartas](https://www.pokemon.com/br/pokedex/)
 

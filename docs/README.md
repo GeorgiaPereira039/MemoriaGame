@@ -27,7 +27,7 @@ A proposta e o desafio do jogo é melhorar o raciocínio lógico através da mem
 Nesse jogo, o jogador deve virar duas peças e, se as peças que foram viradas forem iguais, o jogador marca um ponto. Se as peças forem diferentes, serão viradas novamente, até o jogador conseguir virar duas imagens iguais.
 
 ###### 7. Quais versões existem? O jogo é multiplataforma?
-O jogo conta com versão web e mobile, e sim é multiplataforma: funciona no Windows, Linux e MacOs. 
+O jogo conta com versão web e mobile, e sim é multiplataforma: funciona no Windows, Linux e MacOs.  Na versão mobile temos a versão webapp em onsen-ui e uma versão nativa em react-native com expo.
 
 ###### 8. Quais foram suas maiores dificuldades para criar, desenvolver esse jogo?
 Durante o projeto enfrentei várias dificuldades, e tive novos desafios. Os principais foram: 

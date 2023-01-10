@@ -22,7 +22,7 @@ ________________________________________________________________________________
 
 
 
-![pokemon-go](img/pokemon-go)
+![pokemon-go](img/pokemon-go.png)
 Se você está jogando no celular, experimente girar a tela! 
 
 

@@ -99,7 +99,7 @@ const createCarta = (personagens) => {
 	const front = createElement('div', 'face front');
 	const back = createElement('div', 'face back');
 
-	front.style.backgroundImage = `url('./css/image/${personagens}.png')`;
+	front.style.backgroundImage = `url('./assets/img/${personagens}.png')`;
 
 	carta.appendChild(front);
 	carta.appendChild(back);

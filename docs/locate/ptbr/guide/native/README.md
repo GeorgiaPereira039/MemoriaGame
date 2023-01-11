@@ -1,4 +1,4 @@
-##### Como gerar a pasta build da pasta expo?
+##### Como gerar o processo de build da pasta expo?
 Para gerar o código mobile: "native" utilize o comando:
 1. `npm install --global expo-cli eas-cli react `
 2. `cd expo && npm start` ou o comando `cd expo && expo start`

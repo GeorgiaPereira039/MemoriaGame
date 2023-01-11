@@ -1,5 +1,5 @@
 
-##### Como gerar a pasta build da pasta mobile?
+##### Como gerar o processo de build da pasta mobile?
 1. Para usar o código mobile do onsen-ui utilize a url: `https://georgiapereira039.github.io/MemoriaGame/mobile/index.html`
 2. Mas caso queira gerar o código build da pasta mobile - versão "hybrid-app" utilize o comando:
 

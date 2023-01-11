@@ -1,0 +1,1 @@
+Farei breves comentários de como funciona o algoritmo e a estrutura de dados.

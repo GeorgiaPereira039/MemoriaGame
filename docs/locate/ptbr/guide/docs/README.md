@@ -1,5 +1,5 @@
 
-##### Como gerar a pasta build da pasta docs?
+##### Como gerar o processo de build da pasta docs?
 Para gerar o código da documentação utilize o comando:
 1. `npm i docsify-cli -g`
 2. `cd docs`

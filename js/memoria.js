@@ -13,8 +13,7 @@ let segundaCarta = '';
 const fimDeJogo = () => {
 	const cartaInativa = document.querySelectorAll('.carta-inativa');
 		if (cartaInativa.length === 32) { // 34????
-			console.log('Parabéns, você conseguiu!'); 
-			setGamePoint('pontuacao', cartaInativa.length);
+			console.log('Parabéns, você conseguiu!, sua pontuacao eh: ', cartaInativa.length);
 			playAgain();
 		}
 }

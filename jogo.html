@@ -6,8 +6,10 @@
       <link href="./css/jmemori.css" rel="stylesheet" type="text/css" defer/>
       <script src="./js/memoria.js" defer></script> 
       <link rel="stylesheet" type="text/css" href="./css/rating-stars.css" defer/>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
       <!-- <link href="https://georgiapereira039.github.io/MemoriaGame/css/jmemori.css" rel="stylesheet">
-      <script src="https://georgiapereira039.github.io/MemoriaGame/js/memoria.js" defer></script>  --> 
+         <script src="https://georgiapereira039.github.io/MemoriaGame/js/memoria.js" defer></script>  --> 
       <title>Jogo da Memória</title>
    </head>
    <body>
@@ -17,22 +19,49 @@
       <img id="eve" src="./css/eve.png" alt="eve icon">
       <img id="chikorita" src="./css/chikorita.png" alt="chikorita icon">
       <div class="rating-stars">
+         <!--- <div> or <div class="rating-stars"> --->
          <input type="radio" name="rating" id="rs0" checked><label for="rs0"></label>
          <input type="radio" name="rating" id="rs1"><label for="rs1"></label>
          <input type="radio" name="rating" id="rs2"><label for="rs2"></label>
          <input type="radio" name="rating" id="rs3"><label for="rs3"></label>
          <input type="radio" name="rating" id="rs4"><label for="rs4"></label>
          <input type="radio" name="rating" id="rs5"><label for="rs5"></label>
-         <span class="rating-counter"></span>
+         <span class="rating-counter" id="pointValue"></span>
       </div>
       <main>
          <div class="tabuleiro"></div>
          <button id="btnRestart" onclick="restart()">Jogar Novamente</button>
+         <button type="button" id="btnRestart" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+         Selecionar o modo de jogo
+         </button>
+         <!-- Modal -->
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" style="background: white;">
+               <div class="modal-content" style="background: white;">
+                  <div class="modal-header" style="background: white;">
+                     <h5 class="modal-title" id="exampleModalLabel" style="background: white;">Escolher modo de jogo</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body" style="background: white;">
+                     <select id="selectTypeCard" class="form-select" aria-label="Default select example" onchange="loadGame(this)">
+                        <option value="" selected>Selecionar o modo de jogo</option>
+                        <option value="0">Jogar em modo personalizado</option>
+                        <option value="1">Jogar em modo aleatório</option>
+                        <option value="2">Jogar em modo padrão com card local 1</option>
+                        <option value="3">Jogar em modo padrão com card local 2</option>
+                     </select>
+                  </div>
+                  <div class="modal-footer" style="background: white;">
+                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">Salvar configuração</button>
+                  </div>
+               </div>
+            </div>
+         </div>
          <footer>
             <p>Georgia S Pereira, MemoryGame, 2022 &copy;</p>
          </footer>
       </main>
-      <div class="audio">
+      <div class="audio" id="song">
          <audio controls loop autoplay>
          <source src="./css/tema.mp3" type="audio/mp3">
       </div>

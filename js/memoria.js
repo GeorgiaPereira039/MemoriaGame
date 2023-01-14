@@ -79,9 +79,9 @@ const selectTypeCardNow = (selectObject) => {
 }
 
 const createCarta = (personagens, selectTypeCard) => {
-  const carta = createElement('div', 'carta');
-  const front = createElement('div', 'face front');
-  const back = createElement('div', 'face back');
+  const carta = createElement('div', 'carta');  
+  const front = createElement('img', 'face front'); // div.face.front -> // img.card
+  const back = createElement('img', 'face back'); // div.face.back -> // img.card
   front.style.backgroundImage = `url('./css/image/${personagens}.png')`;
   carta.appendChild(front);
   back.style.backgroundImage = selectTypeCardNow(selectTypeCard);

@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --cardImageBack1: url('./back1.jpg');
+  --cardImageBack2: url('./back.png');
+  --cenario: url('./cenario.png');
+  --cenario1: url('./cenario1.jpg');
+}
+
 * {
-    background-image: url('./cenario.png');
+    background-image: var(--cenario); /* background-image: url('./cenario.png'); */
 }
 
 main {
@@ -13,7 +21,6 @@ main {
     justify-content: center;
     padding: 20px 4px 75px;
 }
-  
   
 h1 {
     margin-left: 30vw;
@@ -34,7 +41,7 @@ h1 {
     75% {right: 300px;}
     100% {left: 0px;}
 }
-  
+
   .tabuleiro {
     display: grid;
     grid-template-columns: repeat(8, 2fr);
@@ -43,8 +50,6 @@ h1 {
     max-width: 1400px; /*  max-width: 1000px */
     margin-top: -5vw;
     background-image: none;
-    
-
   }
   
   .carta {
@@ -55,8 +60,6 @@ h1 {
     transition: all 400ms ease;
     transform-style: preserve-3d;
     background-size: cover;
-
-    
   }
   
   .face {
@@ -75,7 +78,7 @@ h1 {
   }
   
   .back {
-    background-image: url('./back.png');
+    background-image: var(--cardImageBack2); /* background-image: url('./back.png'); */
     backface-visibility: hidden;
   }
   
@@ -98,7 +101,6 @@ h1 {
     margin-top: 3%;
     padding: 10px 40px;
     opacity: 0.5;
-    
 }
 
 #btnRestart:hover { 
@@ -112,12 +114,11 @@ h1 {
     margin-left: 80vw;
     animation: squirtle 2s 1 alternate-reverse;
     background-image: none;
-    
 }
+
 @keyframes squirtle {
      100%  {transform: translateY(-900px);
     }
-     
 }
 
 #togepi {
@@ -126,13 +127,12 @@ h1 {
   margin-left: 20vw;
   animation: togepi 2s 1 alternate-reverse;
   margin-top: -5%;
-  background-image: none ;
+  background-image: none;
 }
 
 @keyframes togepi {
     100%  {transform: translateY(-500px);}
 }
-
 
 #eve {
     height: 0px;
@@ -141,7 +141,6 @@ h1 {
 #chikorita {
     height: 0px;
 }
-
 
 .audio { 
     opacity: 0.03;
@@ -168,34 +167,33 @@ footer p {
     color: rgb(30, 41, 31);
 }
 
-
 @media screen and ( max-width: 200vw) and (min-height: 100vw) {
-    * {
-        background-image: url('./cenario1.jpg');
+    *{
+        background-image: var(--cenario1); /* background-image: url('./cenario1.jpg'); */
     }
-   h1 {
-    margin-top: 20%;
-    background-image: none;
-    min-width: 52vw;
-    margin-left: 10%;
-    color: rgb(66, 85, 20);
+   
+    h1 {
+     margin-top: 20%;
+     background-image: none;
+     min-width: 52vw;
+     margin-left: 10%;
+     color: rgb(66, 85, 20);
     }
-
+    
     .tabuleiro {
         grid-template-columns: repeat(4, 1fr);
         margin-top: 10%;
     }
 
     .back {
-        background-image: url('./back1.jpg');
+        background-image: var(--cardImageBack1); /* background-image: url('./back1.jpg'); */
       }
     
     #btnRestart { 
         margin-top: 20%;
         font-size: 25px;
         color: rgb(59, 7, 155);
-
-    }
+     }
     
     footer p {
         color: rgb(123, 82, 199);
@@ -207,6 +205,7 @@ footer p {
         margin-top: -255%;   
         margin-left: 35%;   
     }
+    
     .audio:hover { 
         opacity: 0.5;
     }
@@ -215,6 +214,7 @@ footer p {
         margin-top: 0%;
         margin-left: 15%;
     }
+    
     #squirtle {
     margin-top: 0%;
     margin-left: 30%;
@@ -227,6 +227,7 @@ footer p {
         background-image: none ;
         margin-top: 0%;
     }
+    
     @keyframes eve {
         100%  {transform: translateY(-400px);
         }}
@@ -237,9 +238,8 @@ footer p {
         margin-left: -35%;
         animation: chikorita 2s 1 alternate-reverse;
         background-image: none ;
-        
-        
     }
+    
     @keyframes chikorita {
         100%  {transform: translateY(-700px);
         }

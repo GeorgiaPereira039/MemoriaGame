@@ -65,16 +65,16 @@ const randomNum = Math.floor(Math.random() * imageArray.length);
 
 const selectTypeCardNow = (selectObject) => {
   if (selectObject.value === '0') {
-    return `url(` + imageArray[0] + `)`;
+    return imageArray[0];
   }
   if (selectObject.value === '1') {
-    return `url(` + imageArray[randomNum] + `)`;
+    return imageArray[random];
   }
   if (selectObject.value === '2') {
-    return `url(` + imageArray[1] + `)`;
+    return imageArray[1];
   }
   if (selectObject.value === '3') {
-    return `url(` + imageArray[2] + `)`;
+    return imageArray[2];
   }
 }
 
@@ -83,8 +83,8 @@ const createCarta = (personagens, selectTypeCard) => {
   const front = createElement('img', 'face front'); // div.face.front -> // img.card
   const back = createElement('img', 'face back'); // div.face.back -> // img.card
   front.src = `./css/image/${personagens}.png`; // front.style.backgroundImage = `url('./css/image/${personagens}.png')`;
-  carta.appendChild(front);
-  back.style.backgroundImage = selectTypeCardNow(selectTypeCard);
+  carta.appendChild(front); //back.style.backgroundImage = selectTypeCardNow(selectTypeCard);
+  back.src = selectTypeCardNow(selectTypeCard); // front.style.backgroundImage = `url('./css/image/${personagens}.png')`;
   carta.appendChild(back);
   carta.addEventListener('click', reveleCarta);
   carta.setAttribute('data-personagens', personagens);

@@ -4,6 +4,7 @@
 - sistema de ranking é baseado no código [rating-stars](https://codepen.io/josetxu/details/jOYYmVZ) da autoria/desenvolvedor: [codepen.io/josetxu](https://codepen.io/josetxu)
 - o tema é licenciado em docsify com a licença MIT
 - A documentação técnica é escrita com docsify com a licença MIT
+- as imagens que aparecem de forma aleatória é baseado no código: [yvWddw](https://codepen.io/fredthewebguy/pen/yvWddw) da autoria/desenvolvedor: [codepen.io/fredthewebguy](https://codepen.io/fredthewebguy)
 - O tema da documentação técnica é baseado em [vue-orgchart](https://github.com/spiritree/vue-orgchart) com a licença MIT
 - Código fonte aberto por MIT: adicione mais recursos ou remova recursos conforme o necessário
 

@@ -92,8 +92,7 @@ const createCarta = (personagens, selectTypeCard) => {
 }
 
 const loadGame = (selectTypeCard) => {
-  const duplicatepersonagens = [...
-    personagens, ...personagens]
+  const duplicatepersonagens = [...personagens, ...personagens]
   const shufflyArray = duplicatepersonagens.sort(() => Math.random() - 0.5);
   shufflyArray.forEach((personagens) => {
     const carta = createCarta(personagens, selectTypeCard);

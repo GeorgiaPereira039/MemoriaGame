@@ -47,7 +47,7 @@ const checarCarta = () => {
 
 const reveleCarta = ({target}) => {
   if (target.parentNode.className.includes('revele-carta')) {
-    return;
+     return;
   }
   if (primeiraCarta === '') {
     target.parentNode.classList.add('revele-carta');
@@ -64,27 +64,30 @@ const imageArray = ["https://images.unsplash.com/photo-1508185159346-bb1c5e93ebb
 const randomNum = Math.floor(Math.random() * imageArray.length);
 
 const selectTypeCardNow = (selectObject) => {
+  if (selectObject.value === '') {
+     return null;
+  }
   if (selectObject.value === '0') {
-    return imageArray[0];
+     return imageArray[0]; 
   }
   if (selectObject.value === '1') {
-    return imageArray[random];
+     return imageArray[randomNum];
   }
   if (selectObject.value === '2') {
-    return imageArray[1];
+     return imageArray[1];
   }
   if (selectObject.value === '3') {
-    return imageArray[2];
+     return imageArray[2];
   }
 }
 
 const createCarta = (personagens, selectTypeCard) => {
   const carta = createElement('div', 'carta');  
-  const front = createElement('img', 'face front'); // div.face.front -> // img.card
-  const back = createElement('img', 'face back'); // div.face.back -> // img.card
-  front.src = `./css/image/${personagens}.png`; // front.style.backgroundImage = `url('./css/image/${personagens}.png')`;
-  carta.appendChild(front); //back.style.backgroundImage = selectTypeCardNow(selectTypeCard);
-  back.src = selectTypeCardNow(selectTypeCard); // front.style.backgroundImage = `url('./css/image/${personagens}.png')`;
+  const front = createElement('img', 'face front');
+  const back = createElement('img', 'face back');
+  front.src = `./css/image/${personagens}.png`; 
+  carta.appendChild(front); 
+  back.src = selectTypeCardNow(selectTypeCard); 
   carta.appendChild(back);
   carta.addEventListener('click', reveleCarta);
   carta.setAttribute('data-personagens', personagens);

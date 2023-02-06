@@ -47,7 +47,7 @@ const checarCarta = () => {
 
 const reveleCarta = ({target}) => {
   if (target.parentNode.className.includes('revele-carta')) {
-    return;
+     return;
   }
   if (primeiraCarta === '') {
     target.parentNode.classList.add('revele-carta');
@@ -64,27 +64,30 @@ const imageArray = ["https://images.unsplash.com/photo-1508185159346-bb1c5e93ebb
 const randomNum = Math.floor(Math.random() * imageArray.length);
 
 const selectTypeCardNow = (selectObject) => {
+  if (selectObject.value === '') {
+     return null;
+  }
   if (selectObject.value === '0') {
-    return `url(` + imageArray[0] + `)`;
+     return imageArray[0]; 
   }
   if (selectObject.value === '1') {
-    return `url(` + imageArray[randomNum] + `)`;
+     return imageArray[randomNum];
   }
   if (selectObject.value === '2') {
-    return `url(` + imageArray[1] + `)`;
+     return imageArray[1];
   }
   if (selectObject.value === '3') {
-    return `url(` + imageArray[2] + `)`;
+     return imageArray[2];
   }
 }
 
 const createCarta = (personagens, selectTypeCard) => {
-  const carta = createElement('div', 'carta');
-  const front = createElement('div', 'face front');
-  const back = createElement('div', 'face back');
-  front.style.backgroundImage = `url('./css/image/${personagens}.png')`;
-  carta.appendChild(front);
-  back.style.backgroundImage = selectTypeCardNow(selectTypeCard);
+  const carta = createElement('div', 'carta');  
+  const front = createElement('img', 'face front');
+  const back = createElement('img', 'face back');
+  front.src = `./css/image/${personagens}.png`; 
+  carta.appendChild(front); 
+  back.src = selectTypeCardNow(selectTypeCard); 
   carta.appendChild(back);
   carta.addEventListener('click', reveleCarta);
   carta.setAttribute('data-personagens', personagens);
@@ -92,8 +95,7 @@ const createCarta = (personagens, selectTypeCard) => {
 }
 
 const loadGame = (selectTypeCard) => {
-  const duplicatepersonagens = [...
-    personagens, ...personagens]
+  const duplicatepersonagens = [...personagens, ...personagens]
   const shufflyArray = duplicatepersonagens.sort(() => Math.random() - 0.5);
   shufflyArray.forEach((personagens) => {
     const carta = createCarta(personagens, selectTypeCard);

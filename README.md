@@ -63,3 +63,8 @@ Fontes usadas:👇👇
 [Fonte do Google](https://fonts.google.com/specimen/Press+Start+2P?query=press)   
 
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+## Colaboradores
+<a align="center" href="https://github.com/GeorgiaPereira039/MemoriaGame/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=GeorgiaPereira039/MemoriaGame" />
+</a>
